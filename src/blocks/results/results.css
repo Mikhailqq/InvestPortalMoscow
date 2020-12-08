@@ -1,0 +1,13 @@
+@import url('./__container/results__container.css');
+
+.results {
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 426px) {
+    .results {
+        
+        margin-top: 50px;
+
+    }
+}

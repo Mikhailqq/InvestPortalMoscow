@@ -1,0 +1,8 @@
+.lists__link {
+    font-family: 'Roboto';
+    font-size: calc(20px + 16 * (100vw / 1920));
+    font-weight: normal;
+    color: #B91827;
+    text-decoration: none;
+
+}

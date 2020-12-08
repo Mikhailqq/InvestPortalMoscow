@@ -1,0 +1,8 @@
+.list-item__link {
+    color: #0D8BCD;
+    text-decoration: none;
+}
+.list-item__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

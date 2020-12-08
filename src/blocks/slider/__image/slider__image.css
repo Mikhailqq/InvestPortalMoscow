@@ -1,0 +1,7 @@
+.slider__image {
+    text-align: center;
+
+}
+.slider__image img {
+    max-width: 100%;
+}

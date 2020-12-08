@@ -1,0 +1,25 @@
+.list-item__subtitle {
+    font-family: 'Roboto';
+    font-size: calc(14px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #3E3E41;
+    max-width: 864px;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 501px) {
+    .list-item__subtitle {
+        font-size: 16px;
+        margin-left: 0;
+        max-width: 340px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width: 420px) {
+    .list-item__subtitle {
+        font-size: calc(6px + 16 * (100vw / 1920));
+    }
+} */

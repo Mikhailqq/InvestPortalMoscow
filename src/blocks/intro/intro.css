@@ -1,0 +1,13 @@
+@import url('./__container-image/intro__container-image.css');
+@import url('./__image/intro__image.css');
+
+.intro {
+    margin-top: 170px;
+    text-align: center;
+}
+
+@media screen and (max-width: 728px) {
+    .intro {
+        margin-top: 0;
+    }
+}

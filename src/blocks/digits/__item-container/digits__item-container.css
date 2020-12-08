@@ -1,0 +1,7 @@
+.digits__item-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 73px;
+}

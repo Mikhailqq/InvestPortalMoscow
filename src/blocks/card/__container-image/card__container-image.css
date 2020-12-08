@@ -1,0 +1,17 @@
+.card__container-image {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    /* position: absolute;
+top: 0;
+right: 0; */
+}
+
+@media screen and (max-width: 600px) {
+    .card__container-image {
+        align-self: flex-start;
+        position: absolute;
+    top: 0;
+    right: 0;
+    }
+}

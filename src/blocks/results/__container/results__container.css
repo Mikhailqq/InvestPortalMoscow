@@ -1,0 +1,25 @@
+.results__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 640px 640px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1025px) {
+    .results__container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .results__container {
+        /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+        grid-template-columns: inherit;
+            margin-top: 40px;
+            grid-gap: 60px;
+    }
+}

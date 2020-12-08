@@ -1,0 +1,21 @@
+.digits__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+    min-height: 160px;
+}
+
+@media screen and (max-width: 942px) {
+    .digits__item {
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .digits__item {
+        max-width: 310px;
+        min-width: 300px;
+    }
+}

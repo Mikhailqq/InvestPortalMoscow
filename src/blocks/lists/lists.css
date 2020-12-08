@@ -1,0 +1,16 @@
+@import url('./__container/lists__container.css');
+@import url('./__link/lists__link.css');
+
+.lists {
+    margin: 0 auto;
+    margin-top: 90px;
+
+}
+
+@media screen and (max-width: 426px) {
+    .lists {
+        margin: 0 auto;
+        margin-top: 50px;
+
+    }
+}

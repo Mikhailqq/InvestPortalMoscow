@@ -1,0 +1,37 @@
+.main__container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 514px;
+}
+
+@media screen and (max-width: 1440px) {
+    .main__container {
+        max-width: 468px;
+
+    }
+}
+@media screen and (max-width: 1024px) {
+    .main__container {
+        max-width: 374px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .main__container {
+        max-width: 315px;
+
+    }
+}
+@media screen and (max-width: 425px) {
+    .main__container {
+        max-width: 180px;
+
+    }
+}
+/* @media screen and (max-width: 375px) {
+    .main__container {
+        max-width:
+
+    }
+} */

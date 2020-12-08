@@ -1,0 +1,19 @@
+.card__link {
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    color: #B91827;
+    z-index: 1;
+    max-width: 350px;
+    margin-top: 0;
+    position: absolute;
+    bottom: 22px;
+    right: 5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 350px) {
+    .card__link {
+        font-size: 1rem;
+    }
+}

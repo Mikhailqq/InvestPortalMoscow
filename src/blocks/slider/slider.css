@@ -1,0 +1,22 @@
+@import url('./__image/slider__image.css');
+@import url('./__slide/slider__slide.css');
+@import url('./__wrapper/slider__wrapper.css');
+
+.slider {
+    padding: 30px 0 70px 0;
+
+}
+
+/* .slider .swiper-button-prev::after,
+.slider  .swiper-button-next::after {
+    color: #B91827;
+    font-size: 32px;
+} */
+
+.slider .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    background-color: #B91827;
+}

@@ -1,0 +1,16 @@
+.digits__item-subtitle {
+    font-family: 'Roboto';
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #3E3E41;
+    z-index: 1;
+    max-width: 350px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .digits__item-subtitle {
+        font-size: 1.5rem;
+    }
+}

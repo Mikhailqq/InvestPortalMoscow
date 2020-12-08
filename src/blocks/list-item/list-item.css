@@ -1,0 +1,21 @@
+@import url('./__container/list-item__container.css');
+@import url('./__image/list-item__image.css');
+@import url('./__subtitle/list-item__subtitle.css');
+@import url('./__link/list-item__link.css');
+@import url('./__span/list-item__span.css');
+
+.list-item {
+    max-width: 1035px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 660px) {
+    .list-item {
+
+        flex-direction: column;
+    }
+}
